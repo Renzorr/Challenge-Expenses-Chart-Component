@@ -43,31 +43,31 @@
     }
 
     .bar_1 {
-      @include bar(60px);
+      @include bar(0px);
     }
 
     .bar_2 {
-      @include bar(100px);
+      @include bar(0px);
     }
 
     .bar_3 {
-      @include bar(150px);
+      @include bar(0px);
     }
 
     .bar_4 {
-      @include bar(90px);
+      @include bar(0px);
     }
 
     .bar_5 {
-      @include bar(70px);
+      @include bar(0px);
     }
 
     .bar_6 {
-      @include bar(130px);
+      @include bar(0px);
     }
 
     .bar_7 {
-      @include bar(70px, $bg-color: false);
+      @include bar(0px, $bg-color: false);
     }
 
     .bar_day {
@@ -77,7 +77,7 @@
   }
 
   hr {
-    margin-block: 30px 20px;
+    margin-block: 20px;
     opacity: 0.1;
   }
 

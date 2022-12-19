@@ -26,7 +26,7 @@
       <header class="header">
         <div class="header_content">
           <h1>My balance</h1>
-          <p>$921.48</p>
+          <p class="round-1">$921.48</p>
         </div>
         <picture class="header_img">
           <img src="/images/logo.svg" alt="" aria-hidden="true" />
@@ -35,59 +35,61 @@
 
       <section class="card">
         <h2>Spending - Last 7 days</h2>
-        <div class="bar_section">
-          <div class="bar_item">
+        <ul class="bar_section">
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_1"></div>
             <p class="bar_day">mon</p>
-          </div>
-          <div class="bar_item">
+          </li>
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_2"></div>
             <p class="bar_day"></p>
-          </div>
-          <div class="bar_item">
+          </li>
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_3"></div>
             <p class="bar_day"></p>
-          </div>
-          <div class="bar_item">
+          </li>
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_4"></div>
             <p class="bar_day"></p>
-          </div>
-          <div class="bar_item">
+          </li>
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_5"></div>
             <p class="bar_day"></p>
-          </div>
-          <div class="bar_item">
+          </li>
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_6"></div>
             <p class="bar_day"></p>
-          </div>
-          <div class="bar_item">
+          </li>
+          <li class="bar_item">
             <span class="bar_amount inactive"></span>
             <div class="bar bar_7"></div>
             <p class="bar_day"></p>
-          </div>
-        </div>
+          </li>
+        </ul>
         <hr />
 
         <div class="card_total">
           <div class="total">
             <h3>Total this month</h3>
-            <h4>$478.33</h4>
+            <h4 class="round-2">$478.33</h4>
           </div>
 
           <div class="percentage">
-            <h3>+2.4%</h3>
+            <h3 class="round-3">+2.4%</h3>
             <h4>from last month</h4>
           </div>
         </div>
       </section>
     </main>
 
+    <script src="/js/animation.min.js"></script>
+    <script src="/js/animation.js"></script>
     <script src="/js/index.js"></script>
   </body>
 </html>
