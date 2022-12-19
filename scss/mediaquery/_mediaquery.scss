@@ -1,0 +1,55 @@
+@media (max-width: 530px) {
+  .header {
+    h1 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+
+  .card {
+    padding: 25px;
+    h2 {
+      font-size: 25px;
+      padding-bottom: 18px;
+    }
+
+    .bar_section {
+      .bar_item {
+        width: 38px;
+      }
+
+      .bar {
+        width: 80%;
+      }
+
+      .bar_day {
+        font-size: 15px;
+      }
+    }
+
+    .card_total {
+      .total {
+        h3 {
+          font-size: 16px;
+        }
+
+        h4 {
+          font-size: 35px;
+        }
+      }
+
+      .percentage {
+        h4 {
+          font-size: 16px;
+        }
+        h3 {
+          margin-top: 5px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

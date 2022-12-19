@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <!-- icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="header_content">
+          <h1>My balance</h1>
+          <p>$921.48</p>
+        </div>
+        <picture class="header_img">
+          <img src="/images/logo.svg" alt="" aria-hidden="true" />
+        </picture>
+      </header>
+
+      <section class="card">
+        <h2>Spending - Last 7 days</h2>
+        <div class="bar_section">
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_1"></div>
+            <p class="bar_day">mon</p>
+          </div>
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_2"></div>
+            <p class="bar_day"></p>
+          </div>
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_3"></div>
+            <p class="bar_day"></p>
+          </div>
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_4"></div>
+            <p class="bar_day"></p>
+          </div>
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_5"></div>
+            <p class="bar_day"></p>
+          </div>
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_6"></div>
+            <p class="bar_day"></p>
+          </div>
+          <div class="bar_item">
+            <span class="bar_amount inactive"></span>
+            <div class="bar bar_7"></div>
+            <p class="bar_day"></p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="card_total">
+          <div class="total">
+            <h3>Total this month</h3>
+            <h4>$478.33</h4>
+          </div>
+
+          <div class="percentage">
+            <h3>+2.4%</h3>
+            <h4>from last month</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

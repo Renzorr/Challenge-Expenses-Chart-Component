@@ -1,0 +1,281 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(27deg, 66%, 92%);
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  padding: 20px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+}
+
+main {
+  width: 100%;
+  max-width: 540px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  padding-inline: 30px;
+  background-color: hsl(10deg, 79%, 65%);
+  border-radius: 20px;
+}
+.header .header_content h1 {
+  font-size: 19px;
+  font-weight: 400;
+  color: hsl(33deg, 100%, 98%);
+  opacity: 0.8;
+  padding-bottom: 5px;
+}
+.header .header_content p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.card {
+  width: 100%;
+  height: 511px;
+  border-radius: 20px;
+  background-color: hsl(33deg, 100%, 98%);
+  margin-top: 20px;
+  padding: 30px 40px;
+}
+.card h2 {
+  color: hsl(25deg, 47%, 15%);
+  font-size: 34px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.card .bar_section {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.card .bar_section .bar_amount {
+  color: #fff;
+  background-color: hsl(25deg, 47%, 15%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  z-index: 99;
+}
+.card .bar_section .bar_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 50px;
+  flex-direction: column;
+}
+.card .bar_section .bar {
+  width: 100%;
+  z-index: 1;
+}
+.card .bar_section .bar_1 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 60px;
+  background-color: hsl(10deg, 79%, 65%);
+}
+.card .bar_section .bar_1:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_2 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 100px;
+  background-color: hsl(10deg, 79%, 65%);
+}
+.card .bar_section .bar_2:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_3 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 150px;
+  background-color: hsl(10deg, 79%, 65%);
+}
+.card .bar_section .bar_3:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_4 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 90px;
+  background-color: hsl(10deg, 79%, 65%);
+}
+.card .bar_section .bar_4:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_5 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 70px;
+  background-color: hsl(10deg, 79%, 65%);
+}
+.card .bar_section .bar_5:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_6 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 130px;
+  background-color: hsl(10deg, 79%, 65%);
+}
+.card .bar_section .bar_6:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_7 {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  height: 70px;
+  background-color: hsl(186deg, 34%, 60%);
+}
+.card .bar_section .bar_7:hover {
+  opacity: 0.6;
+}
+.card .bar_section .bar_day {
+  color: hsl(27deg, 66%, 92%);
+  filter: contrast(75%);
+}
+.card hr {
+  margin-block: 30px 20px;
+  opacity: 0.1;
+}
+.card .card_total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .card_total .total h3 {
+  font-size: 19px;
+  font-weight: 400;
+  color: hsl(27deg, 66%, 92%);
+  filter: contrast(75%);
+}
+.card .card_total .total h4 {
+  font-size: 45px;
+  font-weight: 600;
+  color: hsl(25deg, 47%, 15%);
+}
+.card .card_total .percentage {
+  text-align: right;
+}
+.card .card_total .percentage h4 {
+  font-size: 19px;
+  font-weight: 400;
+  color: hsl(27deg, 66%, 92%);
+  filter: contrast(75%);
+}
+.card .card_total .percentage h3 {
+  margin-top: 22px;
+  color: hsl(25deg, 47%, 15%);
+}
+
+.inactive {
+  opacity: 0;
+}
+
+@media (max-width: 530px) {
+  .header h1 {
+    font-size: 16px;
+  }
+  .header p {
+    font-size: 25px;
+  }
+  .card {
+    padding: 25px;
+  }
+  .card h2 {
+    font-size: 25px;
+    padding-bottom: 18px;
+  }
+  .card .bar_section .bar_item {
+    width: 38px;
+  }
+  .card .bar_section .bar {
+    width: 80%;
+  }
+  .card .bar_section .bar_day {
+    font-size: 15px;
+  }
+  .card .card_total .total h3 {
+    font-size: 16px;
+  }
+  .card .card_total .total h4 {
+    font-size: 35px;
+  }
+  .card .card_total .percentage h4 {
+    font-size: 16px;
+  }
+  .card .card_total .percentage h3 {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
