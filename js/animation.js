@@ -53,3 +53,8 @@ anime({
   targets: ".bar_7",
   height: "70px",
 });
+
+anime({
+  targets: ".bar_section",
+  translateY: [-200, 0],
+});

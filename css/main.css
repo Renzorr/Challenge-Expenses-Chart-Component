@@ -107,6 +107,7 @@ main {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
+  height: 228px;
 }
 .card .bar_section .bar_amount {
   color: #fff;
@@ -153,7 +154,7 @@ main {
   border-radius: 5px;
   transition: 0.5s;
   height: 0px;
-  background-color: hsl(10deg, 79%, 65%);
+  background-color: hsl(186deg, 34%, 60%);
 }
 .card .bar_section .bar_3:hover {
   opacity: 0.6;
@@ -193,7 +194,7 @@ main {
   border-radius: 5px;
   transition: 0.5s;
   height: 0px;
-  background-color: hsl(186deg, 34%, 60%);
+  background-color: hsl(10deg, 79%, 65%);
 }
 .card .bar_section .bar_7:hover {
   opacity: 0.6;
