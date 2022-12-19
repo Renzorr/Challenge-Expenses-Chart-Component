@@ -51,7 +51,7 @@
     }
 
     .bar_3 {
-      @include bar(0px);
+      @include bar(0px, $bg-color: false);
     }
 
     .bar_4 {
@@ -67,7 +67,7 @@
     }
 
     .bar_7 {
-      @include bar(0px, $bg-color: false);
+      @include bar(0px);
     }
 
     .bar_day {
